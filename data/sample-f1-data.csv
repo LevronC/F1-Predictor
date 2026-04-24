@@ -1,0 +1,601 @@
+season,round,circuit,date,driver,constructor,grid,position,points,laps,status,fastestLap
+2021,1,Bahrain,2021-01-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Sergio Perez,Red Bull,2,DNF,0.0,57,DNF,1:32.000
+2021,1,Bahrain,2021-01-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,1,Bahrain,2021-01-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Lewis Hamilton,Mercedes,3,DNF,0.0,57,DNF,1:32.000
+2021,2,Saudi Arabia,2021-02-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,2,Saudi Arabia,2021-02-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,3,Australia,2021-03-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Oscar Piastri,McLaren,8,DNF,0.0,57,DNF,1:32.000
+2021,4,Azerbaijan,2021-04-15,Fernando Alonso,Aston Martin,9,DNF,0.0,57,DNF,1:32.000
+2021,4,Azerbaijan,2021-04-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,4,Azerbaijan,2021-04-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Lewis Hamilton,Mercedes,3,3,15.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Logan Sargeant,Williams,14,DNF,0.0,57,DNF,1:32.000
+2021,5,Miami,2021-05-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,5,Miami,2021-05-15,Nico Hulkenberg,Haas,20,DNF,0.0,57,DNF,1:32.000
+2021,6,Monaco,2021-06-15,Max Verstappen,Red Bull,1,DNF,0.0,57,DNF,1:32.000
+2021,6,Monaco,2021-06-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,6,Monaco,2021-06-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Lewis Hamilton,Mercedes,3,3,15.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,7,Spain,2021-07-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Lando Norris,McLaren,7,DNF,0.0,57,DNF,1:32.000
+2021,8,Canada,2021-08-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,8,Canada,2021-08-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Lewis Hamilton,Mercedes,3,3,15.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,9,Austria,2021-09-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2021,10,Great Britain,2021-010-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,George Russell,Mercedes,4,DNF,0.0,57,DNF,1:32.000
+2022,1,Bahrain,2022-01-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,1,Bahrain,2022-01-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Max Verstappen,Red Bull,1,DNF,0.0,57,DNF,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,2,Saudi Arabia,2022-02-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Sergio Perez,Red Bull,2,DNF,0.0,57,DNF,1:32.000
+2022,3,Australia,2022-03-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,3,Australia,2022-03-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Valtteri Bottas,Alfa Romeo,17,DNF,0.0,57,DNF,1:32.000
+2022,4,Azerbaijan,2022-04-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,4,Azerbaijan,2022-04-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,George Russell,Mercedes,4,DNF,0.0,57,DNF,1:32.000
+2022,5,Miami,2022-05-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Pierre Gasly,Alpine,12,DNF,0.0,57,DNF,1:32.000
+2022,5,Miami,2022-05-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,5,Miami,2022-05-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Charles Leclerc,Ferrari,5,DNF,0.0,57,DNF,1:32.000
+2022,6,Monaco,2022-06-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Fernando Alonso,Aston Martin,9,DNF,0.0,57,DNF,1:32.000
+2022,6,Monaco,2022-06-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,6,Monaco,2022-06-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,7,Spain,2022-07-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Charles Leclerc,Ferrari,5,DNF,0.0,57,DNF,1:32.000
+2022,8,Canada,2022-08-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,8,Canada,2022-08-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Lewis Hamilton,Mercedes,3,DNF,0.0,57,DNF,1:32.000
+2022,9,Austria,2022-09-15,George Russell,Mercedes,4,DNF,0.0,57,DNF,1:32.000
+2022,9,Austria,2022-09-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Oscar Piastri,McLaren,8,DNF,0.0,57,DNF,1:32.000
+2022,9,Austria,2022-09-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,9,Austria,2022-09-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Logan Sargeant,Williams,14,DNF,0.0,57,DNF,1:32.000
+2022,10,Great Britain,2022-010-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2022,10,Great Britain,2022-010-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Lando Norris,McLaren,7,DNF,0.0,57,DNF,1:32.000
+2023,1,Bahrain,2023-01-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,1,Bahrain,2023-01-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,2,Saudi Arabia,2023-02-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,3,Australia,2023-03-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,4,Azerbaijan,2023-04-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,5,Miami,2023-05-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Lewis Hamilton,Mercedes,3,3,15.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Charles Leclerc,Ferrari,5,DNF,0.0,57,DNF,1:32.000
+2023,6,Monaco,2023-06-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,6,Monaco,2023-06-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,7,Spain,2023-07-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Lewis Hamilton,Mercedes,3,1,25.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,George Russell,Mercedes,4,DNF,0.0,57,DNF,1:32.000
+2023,8,Canada,2023-08-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Fernando Alonso,Aston Martin,9,DNF,0.0,57,DNF,1:32.000
+2023,8,Canada,2023-08-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Valtteri Bottas,Alfa Romeo,17,DNF,0.0,57,DNF,1:32.000
+2023,8,Canada,2023-08-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,8,Canada,2023-08-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Max Verstappen,Red Bull,1,DNF,0.0,57,DNF,1:32.000
+2023,9,Austria,2023-09-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,9,Austria,2023-09-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Max Verstappen,Red Bull,1,1,25.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Sergio Perez,Red Bull,2,2,18.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Lewis Hamilton,Mercedes,3,2,18.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,George Russell,Mercedes,4,4,14.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Charles Leclerc,Ferrari,5,5,12.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Carlos Sainz,Ferrari,6,6,10.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Lando Norris,McLaren,7,7,8.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Oscar Piastri,McLaren,8,8,6.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Fernando Alonso,Aston Martin,9,9,4.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Lance Stroll,Aston Martin,10,10,2.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Esteban Ocon,Alpine,11,11,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Pierre Gasly,Alpine,12,12,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Alexander Albon,Williams,13,13,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Logan Sargeant,Williams,14,14,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Yuki Tsunoda,AlphaTauri,15,15,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Daniel Ricciardo,AlphaTauri,16,16,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Valtteri Bottas,Alfa Romeo,17,17,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Zhou Guanyu,Alfa Romeo,18,18,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Kevin Magnussen,Haas,19,19,0.0,57,Finished,1:32.000
+2023,10,Great Britain,2023-010-15,Nico Hulkenberg,Haas,20,20,0.0,57,Finished,1:32.000

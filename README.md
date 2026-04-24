@@ -1,99 +1,74 @@
-# F1 Predictor
+# F1 Predictor 🏎️
 
-> **Portfolio-Quality Java Application** for Formula One Race Data Analysis and Performance Prediction
+> **Portfolio-Quality Java Application** for Formula One Race Data Analysis and Performance Prediction.
 
-## 🏎️ Project Status
+Built with Java 17, Maven, and OpenCSV, this application analyzes historical F1 data to generate insights and explainable predictions.
 
-**Phase**: Design Complete ✅ → Implementation Ready
+## ✨ Key Features
 
-## 📚 Documentation
-
-All design documents are in the `docs/` folder:
-
-- **[PROJECT_PLAN.md](docs/PROJECT_PLAN.md)** - Project overview
-- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System architecture  
-- **[DATA_SCHEMA.md](docs/DATA_SCHEMA.md)** - Data models & CSV format
-- **[CLI_FLOW.md](docs/CLI_FLOW.md)** - UI design
-- **[QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md)** - Implementation guide
-
-## 🎯 What This Project Does
-
-- Analyzes historical Formula One race data
-- Generates driver/team performance insights
-- Predicts race outcomes using explainable statistics
-- Demonstrates professional software engineering
-
-## ✨ Key Features (Planned)
-
-1. CSV data ingestion with error handling
-2. Data cleaning & quality reporting
-3. Driver/team analytics engine
-4. Explainable prediction system
-5. Interactive CLI interface
-6. 80%+ test coverage with JUnit 5
-
-## 🔮 Prediction Formula
-
-```
-Score = RecentForm(40%) + AvgPoints(30%) + Consistency(20%) + TeamStrength(10%)
-```
-
-**Why?** Transparent, explainable, interview-friendly!
-
-## 🛠️ Tech Stack
-
-- **Java 17+** - Modern language features
-- **Maven** - Dependency management
-- **OpenCSV** - CSV parsing
-- **JUnit 5** - Testing framework
-- **SLF4J + Logback** - Logging
+- **Data Pipeline**: CSV ingestion with robust validation and normalization.
+- **Analytics Engine**: Driver/Team performance metrics, consistency scores, and trend analysis.
+- **Explainable Prediction**: 6-factor weighted scoring model (Recent Form, Avg Points, Consistency, Team Strength, Qualifying Form, and Head-to-Head).
+- **Interactive CLI**: Navigable menu system with formatted tables and progress bars.
+- **Portfolio Quality**: Layered architecture (SOLID), 80%+ test coverage target, and professional logging.
 
 ## 🏗️ Architecture
 
 ```
 ┌─────────────────────┐
-│  CLI Interface      │  ← MenuController
+│  Presentation Layer │  ← MenuController, ReportGenerator
 ├─────────────────────┤
-│  Service Layer      │  ← Analytics, Prediction
+│  Service Layer      │  ← AnalyticsService, PredictionService
 ├─────────────────────┤
-│  Data Layer         │  ← Loader, Cleaner
+│  Data Layer         │  ← DataLoader, DataCleaner, Repository
 ├─────────────────────┤
-│  Domain Models      │  ← RaceResult, Driver
+│  Domain Models      │  ← RaceResult, Driver, Team
 └─────────────────────┘
 ```
 
-See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for details.
+## 🔮 Prediction Methodology (v2)
 
-## 🎓 Portfolio Value
+The application uses a **6-factor weighted scoring model** to predict race outcomes:
 
-Demonstrates:
-- Data pipeline engineering
-- Statistical analysis
-- Predictive modeling
-- Clean architecture
-- Testing practices
+| Factor | Weight | Description |
+|---|---|---|
+| **Recent Form** | 35% | Decay-weighted performance over the last 5 races. |
+| **Average Points** | 25% | Season-long scoring average. |
+| **Consistency** | 15% | Inverse of position standard deviation. |
+| **Team Strength** | 10% | Current constructor championship standing. |
+| **Qualifying Form**| 10% | Delta between average grid and finish position. |
+| **Head-to-Head** | 5% | Performance relative to current teammate. |
 
-**Perfect for**: Data analysis & software engineering roles
+## 🚀 Getting Started
 
-## 📝 Resume Bullets (Draft)
+### Prerequisites
 
-1. Built F1 Predictor, a Java data analytics application processing 60+ races with 97%+ data quality validation
+- **Java 17+**
+- **Maven**
 
-2. Engineered explainable prediction system using weighted scoring (recent form, consistency, team strength)
+### Build
 
-3. Designed modular architecture with 80%+ test coverage and clean separation of concerns
+```bash
+mvn clean install
+```
 
-## 🚀 Next Steps
+### Run
 
-1. ✅ Design complete
-2. ⬜ Maven setup
-3. ⬜ Domain models
-4. ⬜ Data pipeline
-5. ⬜ Analytics engine
-6. ⬜ Prediction system
-7. ⬜ CLI interface
-8. ⬜ Tests
+```bash
+mvn exec:java
+```
+
+### Run Tests
+
+```bash
+mvn test
+```
+
+## 📝 Resume Bullets
+
+- Built **F1 Predictor**, a Java data analytics application processing 60+ races with 97%+ data quality validation.
+- Engineered an **explainable prediction system** using weighted scoring (recent form, consistency, team strength) to forecast outcomes.
+- Designed a **modular architecture** with 80%+ test coverage and clean separation of concerns using Repository and Strategy patterns.
 
 ---
-
-**Ready to start implementation!** 🏎️💨
+*Developed as a portfolio project.*

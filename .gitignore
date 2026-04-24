@@ -1,0 +1,10 @@
+target/
+*.class
+.idea/
+*.iml
+logs/
+.DS_Store
+node_modules/
+dist/
+f1-web/node_modules/
+f1-web/dist/
