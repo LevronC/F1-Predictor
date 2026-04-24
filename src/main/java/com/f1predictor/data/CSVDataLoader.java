@@ -5,6 +5,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,6 +17,7 @@ import java.util.List;
 /**
  * Implementation of DataLoader for CSV files using OpenCSV.
  */
+@Component
 public class CSVDataLoader implements DataLoader {
     private static final Logger logger = LoggerFactory.getLogger(CSVDataLoader.class);
 

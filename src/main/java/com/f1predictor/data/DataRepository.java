@@ -21,6 +21,8 @@ public interface DataRepository {
     Set<String> getAllDrivers();
     Set<String> getAllTeams();
     
+    List<RaceResult> getAllResults();
+    void saveAll(List<RaceResult> results);
     Map<String, Driver> getDriverStats();
     Map<String, Team> getTeamStats();
     

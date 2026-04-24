@@ -12,15 +12,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 /**
- * Service for generating race predictions.
+ * Main service for generating race predictions.
  */
+@Service
 public class PredictionService {
     private static final Logger logger = LoggerFactory.getLogger(PredictionService.class);
 
     private final DataRepository repository;
     private PredictionStrategy strategy;
 
+    @Autowired
     public PredictionService(DataRepository repository) {
         this.repository = repository;
         this.strategy = new WeightedScoringStrategy(); // Default

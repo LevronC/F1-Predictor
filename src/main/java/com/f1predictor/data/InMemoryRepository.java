@@ -7,12 +7,15 @@ import com.f1predictor.model.Team;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
  * In-memory implementation of DataRepository.
  */
+@Repository
 public class InMemoryRepository implements DataRepository {
     private static final Logger logger = LoggerFactory.getLogger(InMemoryRepository.class);
 
@@ -69,6 +72,21 @@ public class InMemoryRepository implements DataRepository {
     @Override
     public Set<String> getAllTeams() {
         return raceResults.stream().map(RaceResult::getConstructorName).collect(Collectors.toSet());
+    }
+
+    @Override
+    public List<RaceResult> getAllResults() {
+        return new ArrayList<>(raceResults);
+    }
+
+    @Override
+    public void saveAll(List<RaceResult> results) {
+        results.forEach(this::addRaceResult);
+    }
+
+    private void addRaceResult(RaceResult result) {
+        this.raceResults.add(result);
+        cacheValid = false;
     }
 
     @Override

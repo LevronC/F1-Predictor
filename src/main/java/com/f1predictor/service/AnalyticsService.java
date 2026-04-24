@@ -7,17 +7,32 @@ import com.f1predictor.model.RaceResult;
 import com.f1predictor.model.Team;
 import com.f1predictor.util.StatisticsUtil;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
  * Service for performing complex analytics on race data.
  */
+@Service
 public class AnalyticsService {
     private final DataRepository repository;
 
+    @Autowired
     public AnalyticsService(DataRepository repository) {
         this.repository = repository;
+    }
+
+    public double calculateRollingAveragePosition(String driverName, int lastN) {
+        List<RaceResult> results = repository.getByDriver(driverName);
+        return results.stream()
+                .sorted(Comparator.comparing(RaceResult::getDate).reversed())
+                .limit(lastN)
+                .mapToInt(r -> r.getFinishPosition() == 0 ? 20 : r.getFinishPosition())
+                .average()
+                .orElse(20.0);
     }
 
     public List<Driver> getTopDriversByWins(int limit) {

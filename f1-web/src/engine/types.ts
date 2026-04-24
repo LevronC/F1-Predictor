@@ -1,41 +1,35 @@
-export interface RaceResult {
-  season: number;
-  round: number;
-  circuit: string;
-  date: string;
-  driverName: string;
-  constructorName: string;
-  grid: number;
-  position: number;
-  points: number;
-  status: string;
-}
-
-export interface DriverStats {
-  name: string;
-  team: string;
-  totalPoints: number;
-  wins: number;
-  podiums: number;
-  avgPosition: number;
-  consistency: number;
-  image: string;
-  recentPositions: number[];
-}
+export type Screen = 'home' | 'drivers' | 'teams' | 'predict' | 'backtest';
 
 export interface PredictionResult {
   driverName: string;
   teamName: string;
   totalScore: number;
-  confidence: string;
+  recentFormScore: number;
+  avgPointsScore: number;
+  consistencyScore: number;
+  teamStrengthScore: number;
+  qualifyingFormScore: number;
+  headToHeadScore: number;
+  confidenceLevel: string;
   explanation: string;
-  breakdown: {
-    recentForm: number;
-    avgPoints: number;
-    consistency: number;
-    teamStrength: number;
-    qualyForm: number;
-  };
 }
 
-export type Screen = 'home' | 'drivers' | 'teams' | 'races' | 'predict';
+export interface SimulationResult {
+  driverName: string;
+  winProbability: number;
+  podiumProbability: number;
+  top10Probability: number;
+  averagePosition: number;
+  positionFrequency: Record<number, number>;
+}
+
+export interface DriverStats {
+  name: string;
+  totalRaces: int;
+  wins: int;
+  podiums: int;
+  totalPoints: number;
+  avgPosition: number;
+  consistency: number;
+  image?: string;
+}

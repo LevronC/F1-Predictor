@@ -28,7 +28,8 @@ public class DataCleaner {
             "Alfa Romeo F1 Team Stake", "Alfa Romeo"
     );
 
-    public DataQualityReport clean(List<RaceResult> rawResults, List<RaceResult> cleanedResults) {
+    public static CleaningResult clean(List<RaceResult> rawResults) {
+        List<RaceResult> cleanedResults = new ArrayList<>();
         DataQualityReport report = new DataQualityReport();
         int valid = 0;
         int invalid = 0;
@@ -37,15 +38,13 @@ public class DataCleaner {
 
         for (int i = 0; i < rawResults.size(); i++) {
             RaceResult raw = rawResults.get(i);
-            int rowNum = i + 2; // +1 for 0-index, +1 for header
+            int rowNum = i + 2; 
 
             boolean isRowValid = true;
 
-            // 1. Name Normalization
             String cleanDriver = normalizeDriverName(raw.getDriverName());
             String cleanTeam = normalizeTeamName(raw.getConstructorName());
 
-            // 2. Duplicate Detection (Season + Round + Driver)
             String key = String.format("%d-%d-%s", raw.getSeason(), raw.getRound(), cleanDriver);
             if (seenKeys.contains(key)) {
                 report.addIssue(new DataQualityIssue(rowNum, "DUPLICATE", 
@@ -54,13 +53,11 @@ public class DataCleaner {
             }
             seenKeys.add(key);
 
-            // 3. Points Validation
             if (raw.getPoints() < 0 || raw.getPoints() > 30) {
                 report.addIssue(new DataQualityIssue(rowNum, "points", 
                         DataQualityIssue.IssueType.SUSPICIOUS, "Unusual points value", String.valueOf(raw.getPoints())));
             }
 
-            // 4. Position Validation
             if (raw.getFinishPosition() < 0 || raw.getFinishPosition() > 40) {
                 report.addIssue(new DataQualityIssue(rowNum, "position", 
                         DataQualityIssue.IssueType.INVALID, "Invalid position", String.valueOf(raw.getFinishPosition())));
@@ -68,7 +65,6 @@ public class DataCleaner {
             }
 
             if (isRowValid) {
-                // Build a new cleaned result if names changed
                 RaceResult clean = RaceResult.builder()
                         .season(raw.getSeason())
                         .round(raw.getRound())
@@ -91,11 +87,12 @@ public class DataCleaner {
         }
 
         report.setRows(rawResults.size(), valid, invalid);
-        logger.info("Data cleaning complete. Quality Score: {} ({})", report.getQualityScore(), report.getQualityLabel());
-        return report;
+        return new CleaningResult(report, cleanedResults);
     }
 
-    public String normalizeDriverName(String name) {
+    public record CleaningResult(DataQualityReport report, List<RaceResult> cleanedData) {}
+
+    public static String normalizeDriverName(String name) {
         if (name == null) return "";
         String trimmed = name.trim();
         if (trimmed.contains(",")) {
@@ -107,7 +104,7 @@ public class DataCleaner {
         return trimmed.replaceAll("\\s+", " ");
     }
 
-    public String normalizeTeamName(String name) {
+    public static String normalizeTeamName(String name) {
         if (name == null) return "";
         String trimmed = name.trim();
         for (Map.Entry<String, String> entry : TEAM_ALIASES.entrySet()) {

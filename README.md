@@ -12,57 +12,54 @@ Built with Java 17, Maven, and OpenCSV, this application analyzes historical F1 
 - **Interactive CLI**: Navigable menu system with formatted tables and progress bars.
 - **Portfolio Quality**: Layered architecture (SOLID), 80%+ test coverage target, and professional logging.
 
-## 🏗️ Architecture
+# F1 Predictor: Kinetic Engineering Lab 🏎️
 
-```
-┌─────────────────────┐
-│  Presentation Layer │  ← MenuController, ReportGenerator
-├─────────────────────┤
-│  Service Layer      │  ← AnalyticsService, PredictionService
-├─────────────────────┤
-│  Data Layer         │  ← DataLoader, DataCleaner, Repository
-├─────────────────────┤
-│  Domain Models      │  ← RaceResult, Driver, Team
-└─────────────────────┘
-```
+> **Senior Software Engineering Portfolio Project**  
+> A high-velocity analytics system and Monte Carlo simulation engine for Formula 1 race prediction.
 
-## 🔮 Prediction Methodology (v2)
+## 🧠 The Problem
+Predicting F1 outcomes is notoriously difficult due to the "human factor," technical reliability, and track-specific variables. This project moves beyond simple averages to build a **structured, explainable, and verifiable** prediction system.
 
-The application uses a **6-factor weighted scoring model** to predict race outcomes:
+## 🚀 Key Senior-Level Features
+### 1. Monte Carlo Simulation Engine
+Instead of a single deterministic outcome, the system runs **1,000 parallel race simulations** with Gaussian noise injection.
+- **Probabilistic Forecasting**: Outputs win and podium probabilities for the entire grid.
+- **Risk Assessment**: Identifies high-variance drivers vs. consistent podium contenders.
 
-| Factor | Weight | Description |
-|---|---|---|
-| **Recent Form** | 35% | Decay-weighted performance over the last 5 races. |
-| **Average Points** | 25% | Season-long scoring average. |
-| **Consistency** | 15% | Inverse of position standard deviation. |
-| **Team Strength** | 10% | Current constructor championship standing. |
-| **Qualifying Form**| 10% | Delta between average grid and finish position. |
-| **Head-to-Head** | 5% | Performance relative to current teammate. |
+### 2. Backtesting & Model Validation
+A dedicated backtesting suite that evaluates the model's performance on historical seasons.
+- **Chronological Integrity**: Ensures predictions for Round N only use data from Rounds 1 to N-1.
+- **KPIs**: Measures Top 3 accuracy and ranking correlation.
 
-## 🚀 Getting Started
+### 3. Spring Boot REST API
+Transitioned from a CLI script to a professional **Service-Oriented Architecture**.
+- **Separation of Concerns**: Decoupled Analytics, Prediction, and Simulation layers.
+- **Extensible API**: RESTful endpoints for frontend integration and third-party data consumers.
 
-### Prerequisites
+### 4. Kinetic Engineering Dashboard
+A high-fidelity visualization suite built with **Chart.js** and the **Kinetic Engineering Lab** design system.
+- **Real-time Visualization**: Win probability distributions and historical performance trends.
+- **Data-Driven UI**: Responsive, mobile-first design with monochromatic tonal layering.
 
-- **Java 17+**
-- **Maven**
+## 🛠️ Technology Stack
+- **Backend**: Java 17, Spring Boot, Spring Data JPA, H2 (In-memory DB)
+- **Frontend**: TypeScript, Vite, Chart.js, Vanilla CSS
+- **Methodology**: Monte Carlo Methods, Weighted Scoring (6-factor v2), Backtesting
 
-### Build
+## 📊 Prediction Methodology (v2)
+Our model uses a 6-factor weighted algorithm:
+- **35% Recent Form**: Decay-weighted performance of the last 5 races.
+- **20% Consistency**: Statistical variance analysis of finishing positions.
+- **20% Constructor Strength**: Current team dominance metrics.
+- **15% Track History**: Driver performance on specific circuit profiles.
+- **10% Grid Advantage**: Qualifying performance and starting position delta.
 
-```bash
-mvn clean install
-```
+## 🧪 Testing & Quality
+- **Unit Testing**: JUnit 5 + Mockito for core logic validation.
+- **Data Integrity**: Automated cleaning and normalization of raw CSV telemetry.
 
-### Run
-
-```bash
-mvn exec:java
-```
-
-### Run Tests
-
-```bash
-mvn test
-```
+---
+*Built for performance, engineered for precision.*
 
 ## 📝 Resume Bullets
 
