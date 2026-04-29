@@ -4,14 +4,15 @@ export interface PredictionResult {
   driverName: string;
   teamName: string;
   totalScore: number;
-  recentFormScore: number;
-  avgPointsScore: number;
-  consistencyScore: number;
-  teamStrengthScore: number;
-  qualifyingFormScore: number;
-  headToHeadScore: number;
-  confidenceLevel: string;
+  confidence: string;
   explanation: string;
+  breakdown: {
+    recentForm: number;
+    avgPoints: number;
+    consistency: number;
+    teamStrength: number;
+    qualyForm: number;
+  };
 }
 
 export interface SimulationResult {
@@ -23,13 +24,35 @@ export interface SimulationResult {
   positionFrequency: Record<number, number>;
 }
 
+export interface BacktestReport {
+  season: number;
+  accuracy: number;
+  avgError: number;
+  roundsEvaluated: number;
+}
+
+export interface RaceResult {
+  season: number;
+  round: number;
+  circuit: string;
+  date: string;
+  driverName: string;
+  constructorName: string;
+  grid: number;
+  position: number;
+  points: number;
+  status: string;
+}
+
 export interface DriverStats {
   name: string;
-  totalRaces: int;
-  wins: int;
-  podiums: int;
+  team: string;
+  totalRaces?: number;
+  wins: number;
+  podiums: number;
   totalPoints: number;
   avgPosition: number;
   consistency: number;
+  recentPositions: number[];
   image?: string;
 }

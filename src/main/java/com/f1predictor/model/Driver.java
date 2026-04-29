@@ -21,6 +21,8 @@ public class Driver {
     private int dnfCount;
     private List<Integer> recentPositions = new ArrayList<>();
     private Map<Integer, SeasonStats> seasonStats = new HashMap<>();
+    private Map<String, Double> trackHistory = new HashMap<>();
+    private int teammateWins;
 
     private Driver(Builder builder) {
         this.name = builder.name;
@@ -35,6 +37,8 @@ public class Driver {
         this.dnfCount = builder.dnfCount;
         this.recentPositions = builder.recentPositions;
         this.seasonStats = builder.seasonStats;
+        this.trackHistory = builder.trackHistory;
+        this.teammateWins = builder.teammateWins;
     }
 
     public static Builder builder() {
@@ -54,6 +58,8 @@ public class Driver {
     public int getDnfCount() { return dnfCount; }
     public List<Integer> getRecentPositions() { return recentPositions; }
     public Map<Integer, SeasonStats> getSeasonStats() { return seasonStats; }
+    public Map<String, Double> getTrackHistory() { return trackHistory; }
+    public int getTeammateWins() { return teammateWins; }
 
     public static class Builder {
         private String name;
@@ -68,6 +74,8 @@ public class Driver {
         private int dnfCount;
         private List<Integer> recentPositions = new ArrayList<>();
         private Map<Integer, SeasonStats> seasonStats = new HashMap<>();
+        private Map<String, Double> trackHistory = new HashMap<>();
+        private int teammateWins;
 
         public Builder name(String name) { this.name = name; return this; }
         public Builder totalRaces(int totalRaces) { this.totalRaces = totalRaces; return this; }
@@ -85,6 +93,14 @@ public class Driver {
         }
         public Builder seasonStats(Map<Integer, SeasonStats> seasonStats) {
             this.seasonStats = seasonStats != null ? seasonStats : new HashMap<>();
+            return this;
+        }
+        public Builder trackHistory(Map<String, Double> trackHistory) {
+            this.trackHistory = trackHistory != null ? trackHistory : new HashMap<>();
+            return this;
+        }
+        public Builder teammateWins(int teammateWins) {
+            this.teammateWins = teammateWins;
             return this;
         }
 

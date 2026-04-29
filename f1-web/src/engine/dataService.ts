@@ -119,6 +119,10 @@ export class DataService {
     return this.results.filter(r => r.driverName === name);
   }
 
+  getResultsByDriverAndCircuit(name: string, circuit: string): RaceResult[] {
+    return this.results.filter(r => r.driverName === name && r.circuit === circuit);
+  }
+
   getCircuits(): string[] {
     return Array.from(new Set(this.results.map(r => r.circuit))).sort();
   }
