@@ -655,6 +655,198 @@ input {
   text-transform: uppercase;
 }
 
+.landing-scrub {
+  position: relative;
+  height: 420vh;
+  overflow: clip;
+  color: var(--text-primary);
+  background: #050607;
+}
+
+.landing-sticky {
+  position: sticky;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.landing-shade,
+.landing-track-glow {
+  position: absolute;
+  inset: 0;
+}
+
+.landing-shade {
+  background:
+    radial-gradient(ellipse at 50% 44%, rgba(225, 6, 0, 0.16), transparent 36%),
+    linear-gradient(180deg, #050607 0%, #111316 48%, #050607 100%);
+}
+
+.landing-track-glow {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px) 0 0 / 96px 96px,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px) 0 0 / 96px 96px;
+  opacity: 0.42;
+}
+
+.landing-brand {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  left: 24px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.landing-stage {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: clamp(8px, 1.4vh, 14px);
+}
+
+.landing-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.4rem, 10vw, 9.2rem);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0.86;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-shadow: 0 16px 70px rgba(0, 0, 0, 0.82);
+  pointer-events: none;
+}
+
+.landing-card {
+  position: relative;
+  width: min(86vw, calc(60svh * 1.78));
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f7f7f4;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.58);
+  will-change: transform;
+}
+
+.landing-parts-board,
+.landing-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-parts-board {
+  z-index: 1;
+  object-fit: cover;
+}
+
+.landing-video {
+  z-index: 2;
+  object-fit: cover;
+  filter: contrast(1.08) saturate(0.9);
+}
+
+.landing-card-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  box-shadow:
+    inset 0 0 90px rgba(0, 0, 0, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.landing-data-chip {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 4;
+  display: grid;
+  gap: 2px;
+  min-width: 164px;
+  padding: 10px 12px;
+  background: rgba(7, 7, 7, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(14px);
+}
+
+.landing-data-chip span,
+.landing-data-chip strong {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.landing-data-chip span {
+  color: var(--text-secondary);
+}
+
+.landing-data-chip strong {
+  color: var(--pit-yellow);
+}
+
+.landing-copy {
+  position: absolute;
+  right: clamp(16px, 4vw, 52px);
+  bottom: clamp(18px, 4vh, 42px);
+  z-index: 20;
+  display: grid;
+  gap: 12px;
+  width: min(420px, calc(100vw - 32px));
+}
+
+.landing-copy p {
+  color: var(--text-secondary);
+  font-size: clamp(0.98rem, 1.3vw, 1.18rem);
+}
+
+.landing-enter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 18px;
+  color: #fff;
+  background: var(--f1-red);
+  border: 1px solid var(--f1-red-hot);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: var(--transition-smooth);
+}
+
+.landing-enter:hover {
+  background: var(--f1-red-hot);
+  box-shadow: 0 16px 36px rgba(225, 6, 0, 0.34);
+  transform: translateY(-1px);
+}
+
+.landing-enter.compact {
+  width: auto;
+  min-height: 38px;
+  padding: 9px 13px;
+  font-size: 0.7rem;
+}
+
 @media (min-width: 760px) {
   .span-2 {
     grid-column: span 2;
@@ -731,5 +923,33 @@ input {
 
   .timing-row .hide-mobile {
     display: none;
+  }
+
+  .landing-brand {
+    top: 14px;
+    right: 14px;
+    left: 14px;
+  }
+
+  .landing-title {
+    font-size: clamp(3.7rem, 20vw, 7rem);
+  }
+
+  .landing-card {
+    width: 94vw;
+    border-radius: 8px;
+  }
+
+  .landing-data-chip {
+    right: 10px;
+    bottom: 10px;
+    min-width: 0;
+  }
+
+  .landing-copy {
+    right: 14px;
+    bottom: 18px;
+    left: 14px;
+    width: auto;
   }
 }

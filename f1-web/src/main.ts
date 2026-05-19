@@ -1,23 +1,28 @@
 import './style.css'
 import { Chart, registerables } from 'chart.js'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { dataService } from './engine/dataService'
 import { apiService } from './engine/apiService'
 import { predictionEngine } from './engine/predictionEngine'
 import { BacktestReport, Screen, SimulationResult } from './engine/types'
 
 Chart.register(...registerables)
+gsap.registerPlugin(ScrollTrigger)
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 declare global {
   interface Window {
     navigate: (screen: Screen) => void;
+    enterPlatform: () => void;
     runSimulation: () => void;
     runBacktest: () => void;
   }
 }
 
 // --- State ---
+let hasEnteredPlatform = false
 let currentScreen: Screen = 'home'
 let isLoading = true
 let gridInfluence = 74
@@ -87,6 +92,48 @@ const renderBottomNav = () => `
     <a href="#" class="nav-item ${currentScreen === 'predict' ? 'active' : ''}" data-screen="predict">${Icons.predict}PREDICT</a>
     <a href="#" class="nav-item ${currentScreen === 'backtest' ? 'active' : ''}" data-screen="backtest">${Icons.predict}BACKTEST</a>
   </nav>
+`
+
+const renderLandingHero = () => `
+  <section class="landing-scrub" aria-label="F1 Predictor cinematic landing">
+    <div class="landing-sticky">
+      <div class="landing-shade"></div>
+      <div class="landing-track-glow"></div>
+
+      <div class="landing-brand">
+        <div class="logo">F1 <span>PREDICTOR</span></div>
+        <button class="landing-enter compact" onclick="window.enterPlatform()">Enter Platform</button>
+      </div>
+
+      <div class="landing-stage">
+        <h1 class="landing-title landing-title-top">F1</h1>
+        <div class="landing-card">
+          <img class="landing-parts-board" src="/assets/f1-parts-clean.svg" alt="Exploded Formula car parts layout">
+          <video
+            id="landingPartsVideo"
+            class="landing-video"
+            src="/assets/f1-garage-parts.ogv"
+            muted
+            playsinline
+            preload="auto"
+            poster="/assets/f1-parts-clean.svg"
+          ></video>
+          <div class="landing-card-vignette"></div>
+          <div class="landing-data-chip">
+            <span>Assembly View</span>
+            <strong>Scroll to build</strong>
+          </div>
+        </div>
+        <h1 class="landing-title landing-title-bottom">Predictor</h1>
+      </div>
+
+      <div class="landing-copy">
+        <div class="label-md">Race Intelligence Platform</div>
+        <p>Predict race outcomes from driver form, team pace, circuit fit, and simulation variance.</p>
+        <button class="landing-enter" onclick="window.enterPlatform()">Launch Predictor</button>
+      </div>
+    </div>
+  </section>
 `
 
 const getHomeView = () => {
@@ -485,6 +532,12 @@ window.navigate = (screen: Screen) => {
   render()
 }
 
+window.enterPlatform = () => {
+  hasEnteredPlatform = true
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  render()
+}
+
 window.runSimulation = async () => {
   const slider = document.querySelector<HTMLInputElement>('#grid-slider')
   const select = document.querySelector<HTMLSelectElement>('#circuit-select')
@@ -517,8 +570,16 @@ window.runSimulation = async () => {
 }
 
 function render() {
+  ScrollTrigger.getAll().forEach(trigger => trigger.kill())
+
   if (isLoading) {
     app.innerHTML = `<div class="loading-screen">Initializing Engine</div>`
+    return
+  }
+
+  if (!hasEnteredPlatform) {
+    app.innerHTML = renderLandingHero()
+    initLandingHero()
     return
   }
 
@@ -613,6 +674,89 @@ function render() {
       simulationStatus = `Updated for ${selectedCircuit}`
       render()
     })
+  }
+}
+
+function initLandingHero() {
+  const section = document.querySelector<HTMLElement>('.landing-scrub')
+  const video = document.querySelector<HTMLVideoElement>('#landingPartsVideo')
+  const card = document.querySelector<HTMLElement>('.landing-card')
+  const board = document.querySelector<HTMLElement>('.landing-parts-board')
+  const titleTop = document.querySelector<HTMLElement>('.landing-title-top')
+  const titleBottom = document.querySelector<HTMLElement>('.landing-title-bottom')
+  const copy = document.querySelector<HTMLElement>('.landing-copy')
+
+  if (!section || !video || !card || !board || !titleTop || !titleBottom || !copy) return
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  if (prefersReducedMotion) {
+    video.controls = true
+    return
+  }
+
+  const startScale = () => window.innerWidth < 768 ? 0.82 : 0.58
+  const immerseScale = () => {
+    const bounds = card.getBoundingClientRect()
+    if (!bounds.width || !bounds.height) return 1.8
+    return Math.max(window.innerWidth / bounds.width, window.innerHeight / bounds.height) * 1.04
+  }
+
+  gsap.set(card, { scale: startScale(), transformOrigin: '50% 50%' })
+  gsap.set(video, { autoAlpha: 0 })
+  gsap.set(board, { scale: 1, transformOrigin: '50% 50%' })
+
+  gsap.from([card, titleTop, titleBottom, copy], {
+    autoAlpha: 0,
+    y: (_index, target) => target === titleBottom ? -24 : 24,
+    duration: 1.15,
+    stagger: 0.08,
+    ease: 'power3.out'
+  })
+
+  const syncVideo = (progress: number) => {
+    if (!Number.isFinite(video.duration) || video.duration <= 0) return
+    const start = video.duration * 0.08
+    const end = video.duration * 0.58
+    video.currentTime = start + (end - start) * gsap.utils.clamp(0, 1, progress)
+  }
+
+  const createScrub = () => {
+    video.pause()
+    syncVideo(0)
+
+    const master = gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: 'top top',
+        end: 'bottom bottom',
+        scrub: 0.45,
+        invalidateOnRefresh: true,
+        onUpdate: self => syncVideo((self.progress - 0.13) / 0.66)
+      }
+    })
+
+    master.to(card, { scale: 1, ease: 'power2.out', duration: 0.15 }, 0)
+    master.to(board, { scale: 1.08, ease: 'power2.out', duration: 0.2 }, 0)
+    master.to(titleTop, { x: () => window.innerWidth < 768 ? '-72vw' : '-58vw', ease: 'power2.inOut', duration: 0.15 }, 0)
+    master.to(titleBottom, { x: () => window.innerWidth < 768 ? '72vw' : '58vw', ease: 'power2.inOut', duration: 0.15 }, 0)
+    master.to(card, { scale: immerseScale, ease: 'power2.in', duration: 0.63 }, 0.15)
+    master.to(board, { autoAlpha: 0, scale: 1.18, ease: 'power1.in', duration: 0.22 }, 0.18)
+    master.to(video, { autoAlpha: 1, ease: 'power1.out', duration: 0.24 }, 0.2)
+    master.to([titleTop, titleBottom, copy], { autoAlpha: 0, ease: 'power1.in', duration: 0.24 }, 0.15)
+    master.to(card, { scale: startScale, ease: 'power3.inOut', duration: 0.22 }, 0.78)
+    master.to(video, { autoAlpha: 0, ease: 'power1.inOut', duration: 0.16 }, 0.78)
+    master.to(board, { autoAlpha: 1, scale: 1, ease: 'power2.out', duration: 0.2 }, 0.82)
+    master.to(titleTop, { x: 0, autoAlpha: 1, ease: 'power2.inOut', duration: 0.22 }, 0.78)
+    master.to(titleBottom, { x: 0, autoAlpha: 1, ease: 'power2.inOut', duration: 0.22 }, 0.78)
+    master.to(copy, { autoAlpha: 1, ease: 'power2.out', duration: 0.18 }, 0.86)
+
+    ScrollTrigger.refresh()
+  }
+
+  if (video.readyState >= 1) {
+    createScrub()
+  } else {
+    video.addEventListener('loadedmetadata', createScrub, { once: true })
   }
 }
 

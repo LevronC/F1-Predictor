@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Exploded Formula car parts">
+  <rect width="1600" height="900" fill="#f7f7f4"/>
+  <g opacity=".32" stroke="#d9dad6" stroke-width="1">
+    <path d="M0 150h1600M0 300h1600M0 450h1600M0 600h1600M0 750h1600"/>
+    <path d="M200 0v900M400 0v900M600 0v900M800 0v900M1000 0v900M1200 0v900M1400 0v900"/>
+  </g>
+  <g transform="translate(800 450)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="#101215" stroke="#25282c" stroke-width="7">
+      <circle cx="-520" cy="-245" r="69"/>
+      <circle cx="520" cy="-245" r="69"/>
+      <circle cx="-520" cy="245" r="69"/>
+      <circle cx="520" cy="245" r="69"/>
+    </g>
+    <g fill="#f7f7f4" stroke="#c7c9c6" stroke-width="6">
+      <circle cx="-520" cy="-245" r="31"/>
+      <circle cx="520" cy="-245" r="31"/>
+      <circle cx="-520" cy="245" r="31"/>
+      <circle cx="520" cy="245" r="31"/>
+    </g>
+    <g stroke="#202327" stroke-width="12">
+      <path d="M-420-215l215 74M420-215l-215 74M-420 215l215-74M420 215l-215-74"/>
+      <path d="M-255-85h180M75-85h180M-255 85h180M75 85h180"/>
+    </g>
+    <g fill="#ececea" stroke="#bdc0be" stroke-width="5">
+      <path d="M-92-94h184l76 48-72 44H-96l-72-44z"/>
+      <path d="M-128 20h256l-42 96H-86z"/>
+      <path d="M-354-138l124 22-26 72-136-9z"/>
+      <path d="M354-138l-124 22 26 72 136-9z"/>
+      <path d="M-354 138l124-22-26-72-136 9z"/>
+      <path d="M354 138l-124-22 26-72 136 9z"/>
+    </g>
+    <g fill="#ffffff" stroke="#c9ccca" stroke-width="6">
+      <path d="M-64-282h128l38 92H-102z"/>
+      <path d="M-64 282h128l38-92H-102z"/>
+      <path d="M-620-50h224l-28 100h-196z"/>
+      <path d="M620-50H396l28 100h196z"/>
+      <path d="M-190-320h120l-12 52h-126z"/>
+      <path d="M190-320H70l12 52h126z"/>
+      <path d="M-190 320h120l-12-52h-126z"/>
+      <path d="M190 320H70l12-52h126z"/>
+    </g>
+    <g fill="#12161b" stroke="#252a31" stroke-width="5">
+      <path d="M-54-36c20-34 88-34 108 0 15 26 8 86-54 108-62-22-69-82-54-108z"/>
+      <path d="M-38 142h76l24 92H-62z"/>
+    </g>
+    <g fill="#e10600" stroke="#b80500" stroke-width="5">
+      <path d="M-500-34h220l-26 68h-194z"/>
+      <path d="M500-34H280l26 68h194z"/>
+      <path d="M-110-392h220l-18 62H-92z"/>
+      <path d="M-110 392h220l-18-62H-92z"/>
+    </g>
+    <g stroke="#717780" stroke-width="8">
+      <path d="M-360-305l88 42M360-305l-88 42M-360 305l88-42M360 305l-88-42"/>
+      <path d="M-205-210l76 44M205-210l-76 44M-205 210l76-44M205 210l-76-44"/>
+    </g>
+    <g fill="#2e333a" stroke="#17191c" stroke-width="5">
+      <rect x="-285" y="238" width="118" height="72" rx="10"/>
+      <rect x="167" y="-310" width="118" height="72" rx="10"/>
+      <rect x="-40" y="-378" width="80" height="54" rx="8"/>
+      <rect x="-40" y="324" width="80" height="54" rx="8"/>
+    </g>
+  </g>
+  <g fill="#0d1014" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="4">
+    <text x="86" y="78">EXPLODED PERFORMANCE MODEL</text>
+    <text x="86" y="826" opacity=".55">F1 PREDICTOR / ASSEMBLY VIEW</text>
+  </g>
+</svg>
