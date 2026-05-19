@@ -1,8 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "api/simulate.ts": {
+      "maxDuration": 30
+    },
+    "api/backtest/[season].ts": {
+      "maxDuration": 30
+    }
+  }
 }
