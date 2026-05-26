@@ -1,5 +1,5 @@
-import { BacktestReport, DriverStats, RaceResult } from './types';
-import { predictionEngine } from './predictionEngine';
+import { BacktestReport, DriverStats, RaceResult } from './types.js';
+import { predictionEngine } from './predictionEngine.js';
 
 export function runBacktest(
   drivers: DriverStats[],

@@ -1,4 +1,9 @@
-import { DriverStats, RaceResult } from './types';
+import { DriverStats, RaceResult } from './types.js';
+
+function parsePosition(raw: string): number {
+  if (/^\d+$/.test(raw)) return parseInt(raw, 10);
+  return 0;
+}
 
 export function parseCSV(text: string): RaceResult[] {
   const lines = text.trim().split('\n');
@@ -13,9 +18,11 @@ export function parseCSV(text: string): RaceResult[] {
       driverName: values[4],
       constructorName: values[5],
       grid: parseInt(values[6]),
-      position: parseInt(values[7]) || 0,
+      position: parsePosition(values[7]),
       points: parseFloat(values[8]),
-      status: values[10]
+      laps: parseInt(values[9]) || 0,
+      status: values[10] || 'Finished',
+      fastestLap: values[11] || ''
     };
   });
 }
@@ -88,6 +95,7 @@ export function aggregateDrivers(results: RaceResult[]): Map<string, DriverStats
     drivers.set(name, {
       name,
       team: sorted[0].constructorName,
+      totalRaces: entries.length,
       totalPoints,
       wins,
       podiums,

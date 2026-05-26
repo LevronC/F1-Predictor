@@ -12,6 +12,9 @@ export interface PredictionResult {
     consistency: number;
     teamStrength: number;
     qualyForm: number;
+    circuitForm: number;
+    lapCompletion: number;
+    paceIndex: number;
   };
 }
 
@@ -41,7 +44,21 @@ export interface RaceResult {
   grid: number;
   position: number;
   points: number;
+  laps: number;
   status: string;
+  fastestLap: string;
+}
+
+export interface DatasetStats {
+  seasonCount: number;
+  yearStart: number;
+  yearEnd: number;
+  seasons: number[];
+  raceCount: number;
+  resultCount: number;
+  driverCount: number;
+  circuitCount: number;
+  featureCount: number;
 }
 
 export interface DriverStats {

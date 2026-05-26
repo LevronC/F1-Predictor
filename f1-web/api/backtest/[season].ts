@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { ensureServerData } from '../../src/server/context';
-import { runBacktest } from '../../src/engine/backtestEngine';
-import { dataService } from '../../src/engine/dataService';
+import { ensureServerData } from '../../src/server/context.js';
+import { runBacktest } from '../../src/engine/backtestEngine.js';
+import { dataService } from '../../src/engine/dataService.js';
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   try {

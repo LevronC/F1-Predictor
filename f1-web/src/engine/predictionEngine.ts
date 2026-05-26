@@ -1,74 +1,24 @@
-import { DriverStats, PredictionResult } from './types';
-import { dataService } from './dataService';
+import { DriverStats, PredictionResult } from './types.js';
+import { buildFeatureVector, explainFeatures, scoreFeatures } from './featureEngine.js';
 
 export class PredictionEngine {
   predict(drivers: DriverStats[], gridInfluence: number = 0.74, circuit?: string): PredictionResult[] {
     const gridWeight = Math.max(0, Math.min(1, gridInfluence > 1 ? gridInfluence / 100 : gridInfluence));
 
     return drivers.map(driver => {
-      const recentForm = this.calculateRecentForm(driver);
-      const avgPoints = Math.min(driver.totalPoints / (driver.wins + 20) / 25, 1);
-      const consistency = driver.consistency;
-      const teamStrength = this.calculateTeamStrength(driver);
-      const qualyForm = this.calculateQualyForm(driver);
-      const circuitForm = this.calculateCircuitForm(driver, circuit);
-
-      // Weighted Score
-      const baseScore = (recentForm * 0.35) + 
-                        (avgPoints * 0.25) + 
-                        (consistency * 0.15) + 
-                        (teamStrength * 0.10) + 
-                        (qualyForm * 0.05) +
-                        (circuitForm * 0.10);
-
-      const finalScore = (baseScore * (1 - gridWeight)) + (qualyForm * gridWeight);
+      const features = buildFeatureVector(driver, drivers, circuit);
+      const modelScore = scoreFeatures(features);
+      const finalScore = (modelScore * (1 - gridWeight)) + (features.qualyForm * gridWeight);
 
       return {
         driverName: driver.name,
         teamName: driver.team,
         totalScore: Math.min(finalScore * 10, 10),
         confidence: this.getConfidence(finalScore),
-        explanation: this.generateExplanation(driver, finalScore, circuit, circuitForm),
-        breakdown: { recentForm, avgPoints, consistency, teamStrength, qualyForm }
+        explanation: explainFeatures(driver, features, circuit),
+        breakdown: features
       };
     }).sort((a, b) => b.totalScore - a.totalScore);
-  }
-
-  private calculateRecentForm(driver: DriverStats): number {
-    if (!driver.recentPositions.length) return 0.5;
-    const scores = driver.recentPositions.map(p => (21 - p) / 20);
-    const weights = [0.35, 0.25, 0.20, 0.15, 0.05];
-    return scores.reduce((sum, s, i) => sum + s * (weights[i] || 0.05), 0);
-  }
-
-  private calculateTeamStrength(driver: DriverStats): number {
-    const teams = dataService.getAllDrivers().reduce((acc, d) => {
-      acc[d.team] = (acc[d.team] || 0) + d.totalPoints;
-      return acc;
-    }, {} as Record<string, number>);
-    
-    const maxPoints = Math.max(...Object.values(teams));
-    return (teams[driver.team] || 0) / maxPoints;
-  }
-
-  private calculateQualyForm(driver: DriverStats): number {
-    const results = dataService.getResultsByDriver(driver.name);
-    const gain = results.reduce((sum, r) => sum + (r.grid - (r.position || 20)), 0) / results.length;
-    return Math.min(Math.max((gain + 10) / 20, 0), 1);
-  }
-
-  private calculateCircuitForm(driver: DriverStats, circuit?: string): number {
-    if (!circuit) return 0.5;
-
-    const circuitResults = dataService.getResultsByDriverAndCircuit(driver.name, circuit);
-    if (!circuitResults.length) return 0.5;
-
-    const avgFinish = circuitResults.reduce((sum, result) => sum + (result.position === 0 ? 20 : result.position), 0) / circuitResults.length;
-    const avgGridGain = circuitResults.reduce((sum, result) => sum + (result.grid - (result.position || 20)), 0) / circuitResults.length;
-    const finishScore = Math.max(0, (21 - avgFinish) / 20);
-    const gainScore = Math.min(Math.max((avgGridGain + 5) / 10, 0), 1);
-
-    return (finishScore * 0.75) + (gainScore * 0.25);
   }
 
   private getConfidence(score: number): string {
@@ -76,18 +26,6 @@ export class PredictionEngine {
     if (score > 0.7) return 'High';
     if (score > 0.5) return 'Moderate';
     return 'Low';
-  }
-
-  private generateExplanation(driver: DriverStats, score: number, circuit?: string, circuitForm?: number): string {
-    if (circuit && circuitForm !== undefined && circuitForm > 0.7) {
-      return `${driver.name} has strong historical form at ${circuit}.`;
-    }
-    if (circuit && circuitForm !== undefined && circuitForm < 0.4) {
-      return `${driver.name} has been less convincing at ${circuit} than on other tracks.`;
-    }
-    if (score > 0.8) return `${driver.name} is in elite form with exceptional consistency.`;
-    if (score > 0.6) return `${driver.name} shows strong podium potential based on recent telemetry.`;
-    return `${driver.name} performance metrics suggest high variability for this circuit.`;
   }
 }
 

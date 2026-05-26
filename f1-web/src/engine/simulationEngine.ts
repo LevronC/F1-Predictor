@@ -1,5 +1,5 @@
-import { DriverStats, PredictionResult, SimulationResult } from './types';
-import { predictionEngine } from './predictionEngine';
+import { DriverStats, PredictionResult, SimulationResult } from './types.js';
+import { predictionEngine } from './predictionEngine.js';
 
 export function runSimulation(
   drivers: DriverStats[],
